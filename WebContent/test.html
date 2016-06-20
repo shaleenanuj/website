@@ -1,0 +1,58 @@
+
+
+
+
+ 
+
+
+How to make radio button change the form action address
+
+I got a form which have the following
+
+
+and a radio button
+<b>Would you like to to make payment ? <input type="radio" name="choice" value="yes">Yes <input type="radio" name="choice" value="no" checked>No</b>'
+
+If user selection is no (default checked) the form action will still be register_page4.php
+
+but if user selected yes and press the submit button:
+<input  id="btnSubmit" type="submit" value="Next" />
+
+I would like the form action to be payment.php instead of register_page4.php, how do I achieve it.
+
+I make the changes and this is what I type
+<html>
+<head>
+</head>
+<body>
+
+  <form name="form1" method="post" action="register_page4.php">
+
+    Would you like to make an appointment for collection ? 
+<input type="radio" name="collection" value="yes">Yes 
+<input type="radio" name="collection" value="no" checked>No
+   <input  id="btnSubmit" type="submit" value="Next" />  
+    </form>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script>
+jQuery(document).ready(function($) {
+    var form = $('form[name="form1"]'),
+        radio = $('input[name="choice"]'),
+        choice = '';
+
+    radio.change(function(e) {
+        choice = this.value;
+
+        if (choice === 'yes') {
+            form.attr('action', 'payment.php');
+        } else {
+            form.attr('action', 'register_page4.php');
+        }
+    });
+});
+</script>
+</body>
+</html>
+ 
