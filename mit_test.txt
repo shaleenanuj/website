@@ -1,0 +1,283 @@
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ vtkpython Driver.py
+new instance is assigned
+logger instance created
+in init
+1555990572.94
+37.0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 259, in mousePressEvent
+    guiEvent=event)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 1903, in button_press_event
+    self.callbacks.process(s, mouseevent)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 563, in process
+    proxy(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 430, in __call__
+    return mtd(*args, **kwargs)
+  File "Driver.py", line 518, in onclick
+    ix=int(ix)
+TypeError: int() argument must be a string or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 259, in mousePressEvent
+    guiEvent=event)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 1903, in button_press_event
+    self.callbacks.process(s, mouseevent)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 563, in process
+    proxy(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 430, in __call__
+    return mtd(*args, **kwargs)
+  File "Driver.py", line 518, in onclick
+    ix=int(ix)
+TypeError: int() argument must be a string or a number, not 'NoneType'
+41.0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 259, in mousePressEvent
+    guiEvent=event)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 1903, in button_press_event
+    self.callbacks.process(s, mouseevent)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 563, in process
+    proxy(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 430, in __call__
+    return mtd(*args, **kwargs)
+  File "Driver.py", line 518, in onclick
+    ix=int(ix)
+TypeError: int() argument must be a string or a number, not 'NoneType'
+52.0
+59.0
+68.0
+81.0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 259, in mousePressEvent
+    guiEvent=event)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 1903, in button_press_event
+    self.callbacks.process(s, mouseevent)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 563, in process
+    proxy(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 430, in __call__
+    return mtd(*args, **kwargs)
+  File "Driver.py", line 518, in onclick
+    ix=int(ix)
+TypeError: int() argument must be a string or a number, not 'NoneType'
+97.0
+126.0
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/qrangeslider1.py", line 175, in mouseMoveEvent
+    s = self.main.start() + dx
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+old instance is set
+old instance is set
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+Traceback (most recent call last):
+  File "Driver.py", line 395, in colorMask
+    intensity_min =self.rmin
+AttributeError: Driver instance has no attribute 'rmin'
+old instance is set
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+old instance is set
+old instance is set
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ vtkpython Driver.py
+new instance is assigned
+logger instance created
+in init
+1555990708.6
+old instance is set
+old instance is set
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+Traceback (most recent call last):
+  File "Driver.py", line 395, in colorMask
+    intensity_min =self.rmin
+AttributeError: Driver instance has no attribute 'rmin'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ vtkpython Driver.py
+new instance is assigned
+logger instance created
+in init
+1555990742.31
+old instance is set
+old instance is set
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+Traceback (most recent call last):
+  File "Driver.py", line 395, in colorMask
+    intensity_min =self.rmin
+AttributeError: Driver instance has no attribute 'rmin'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ vtkpython Driver.py
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/LoadStack.py", line 41, in setDirPath
+    self.setFileImages(dir_path,driver)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/22.04.19/LoadStack.py", line 73, in setFileImages
+    offset_final=offset_list[0]
+IndexError: list index out of range
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ vtkpython Driver.py
+new instance is assigned
+logger instance created
+in init
+1555991151.23
+ERROR: In /build/vtk-NWL3SN/vtk-5.10.1+dfsg/IO/vtkPNGWriter.cxx, line 233
+vtkPNGWriter (0x4d9b730): Unable to open file 
+
+ERROR: In /build/vtk-NWL3SN/vtk-5.10.1+dfsg/IO/vtkImageWriter.cxx, line 493
+vtkPNGWriter (0x4d9b730): Ran out of disk space; deleting file(s) already written
+
+old instance is set
+['0', '255']
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent_1': '727', 'extent_3': '727', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': "['0.0', '1.0']", 'intensity': "['0', '255']"}]}
+old instance is set
+Traceback (most recent call last):
+  File "Driver.py", line 562, in openVTKObj
+    with open(fname) as json_file:  
+IOError: [Errno 2] No such file or directory: ''
+15.0
+16.0
+26.0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py", line 259, in mousePressEvent
+    guiEvent=event)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 1903, in button_press_event
+    self.callbacks.process(s, mouseevent)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 563, in process
+    proxy(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/matplotlib/cbook.py", line 430, in __call__
+    return mtd(*args, **kwargs)
+  File "Driver.py", line 518, in onclick
+    ix=int(ix)
+TypeError: int() argument must be a string or a number, not 'NoneType'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ vtkpython Driver.py
+
+new instance is assigned
+logger instance created
+in init
+1555994015.91
+old instance is set
+old instance is set
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+Traceback (most recent call last):
+  File "Driver.py", line 395, in colorMask
+    intensity_min =self.rmin
+AttributeError: Driver instance has no attribute 'rmin'
+old instance is set
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+<class 'PyQt4.QtGui.QTableWidgetItem'>
+Traceback (most recent call last):
+  File "Driver.py", line 395, in colorMask
+    intensity_min =self.rmin
+AttributeError: Driver instance has no attribute 'rmin'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ 
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules/22.04.19$ QSizePolicy.Expanding
+

@@ -1,0 +1,513 @@
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+199.0
+226.0
+old instance is set
+0 0.0
+199.0 0.03
+226.0 0.08
+255 1.0
+Traceback (most recent call last):
+  File "Driver.py", line 486, in saveVtkConfiguration
+    data=rc.intensityOpacity()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 43, in intensityOpacity
+    self.data['intensityOpacity'] = []
+AttributeError: __RenderConfiguration instance has no attribute 'data'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+215.0
+226.0
+234.0
+239.0
+old instance is set
+0 0.0
+215.0 0.08
+226.0 0.14
+234.0 0.18
+239.0 0.18
+255 1.0
+Traceback (most recent call last):
+  File "Driver.py", line 486, in saveVtkConfiguration
+    data=rc.intensityOpacity()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 43, in intensityOpacity
+    self.data['intensityOpacity'] = []
+AttributeError: __RenderConfiguration instance has no attribute 'data'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+215.0
+226.0
+234.0
+246.0
+old instance is set
+0 0.0
+215.0 0.15
+226.0 0.15
+234.0 0.08
+246.0 0.02
+255 1.0
+Traceback (most recent call last):
+  File "Driver.py", line 487, in saveVtkConfiguration
+    data=rc.intensityOpacity()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 43, in intensityOpacity
+    self.data['intensityOpacity'] = []
+AttributeError: __RenderConfiguration instance has no attribute 'data'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+224.0
+231.0
+238.0
+245.0
+old instance is set
+0 0.0
+224.0 0.13
+231.0 0.15
+238.0 0.14
+245.0 0.15
+255 1.0
+Traceback (most recent call last):
+  File "Driver.py", line 487, in saveVtkConfiguration
+    data=rc.intensityOpacity()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 43, in intensityOpacity
+    self.data['intensityOpacity'] = []
+AttributeError: __RenderConfiguration instance has no attribute 'data'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+210.0
+218.0
+242.0
+old instance is set
+0 0.0
+210.0 0.13
+218.0 0.19
+242.0 0.28
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+208.0
+246.0
+246.0
+old instance is set
+0 0.0
+208.0 0.08
+246.0 0.06
+255 1.0
+{'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+206.0
+215.0
+227.0
+old instance is set
+0 0.0
+206.0 0.13
+215.0 0.14
+227.0 0.13
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+214.0
+238.0
+248.0
+248.0
+old instance is set
+0 0.0
+214.0 0.18
+238.0 0.18
+248.0 0.12
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 99, in loadValueFromLoadStackUi
+    self.accept(self.dirPath,self.filePrefix,self.offset,self.imageNo,self.xSpace,self.ySpace,self.zSpace)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 107, in accept
+    rc=RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 73, in __new__
+    RenderConfiguration.instance = RenderConfiguration.__RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 19, in __init__
+    for i in range(0,n):		
+NameError: global name 'n' is not defined
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 99, in loadValueFromLoadStackUi
+    self.accept(self.dirPath,self.filePrefix,self.offset,self.imageNo,self.xSpace,self.ySpace,self.zSpace)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 107, in accept
+    rc=RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 73, in __new__
+    RenderConfiguration.instance = RenderConfiguration.__RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 19, in __init__
+    for i in range(0,allrows):		
+NameError: global name 'allrows' is not defined
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 99, in loadValueFromLoadStackUi
+    self.accept(self.dirPath,self.filePrefix,self.offset,self.imageNo,self.xSpace,self.ySpace,self.zSpace)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 107, in accept
+    rc=RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 73, in __new__
+    RenderConfiguration.instance = RenderConfiguration.__RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 19, in __init__
+    for i in range(0,allrows):		
+NameError: global name 'allrows' is not defined
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 99, in loadValueFromLoadStackUi
+    self.accept(self.dirPath,self.filePrefix,self.offset,self.imageNo,self.xSpace,self.ySpace,self.zSpace)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 107, in accept
+    rc=RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 73, in __new__
+    RenderConfiguration.instance = RenderConfiguration.__RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 19, in __init__
+    for i in range(0,self.allrows):		
+TypeError: range() integer end argument expected, got NoneType.
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 99, in loadValueFromLoadStackUi
+    self.accept(self.dirPath,self.filePrefix,self.offset,self.imageNo,self.xSpace,self.ySpace,self.zSpace)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 107, in accept
+    rc=RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 73, in __new__
+    RenderConfiguration.instance = RenderConfiguration.__RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 20, in __init__
+    self.intensity.append(intensity)
+NameError: global name 'intensity' is not defined
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+214.0
+250.0
+238.0
+old instance is set
+0 0.0
+214.0 0.08
+238.0 0.31
+250.0 0.08
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+211.0
+232.0
+251.0
+old instance is set
+0 0.0
+211.0 0.03
+232.0 0.06
+251.0 0.28
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+Traceback (most recent call last):
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 99, in loadValueFromLoadStackUi
+    self.accept(self.dirPath,self.filePrefix,self.offset,self.imageNo,self.xSpace,self.ySpace,self.zSpace)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/LoadStack.py", line 107, in accept
+    rc=RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 74, in __new__
+    RenderConfiguration.instance = RenderConfiguration.__RenderConfiguration()
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/RenderConfiguration.py", line 21, in __init__
+    self.intensity.append(self.intensity)
+AttributeError: __RenderConfiguration instance has no attribute 'intensity'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+196.0
+234.0
+old instance is set
+0 0.0
+196.0 0.14
+234.0 0.08
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.01.01.01.01.01.01.01.01.01.01.01.01.01.01.01.0', 'intensity': '255255255255255255255255255255255255255255255255'}, {'opacity': '1.01.01.01.01.01.01.01.01.01.01.01.01.01.01.01.0', 'intensity': '255255255255255255255255255255255255255255255255'}, {'opacity': '1.01.01.01.01.01.01.01.01.01.01.01.01.01.01.01.0', 'intensity': '255255255255255255255255255255255255255255255255'}, {'opacity': '1.01.01.01.01.01.01.01.01.01.01.01.01.01.01.01.0', 'intensity': '255255255255255255255255255255255255255255255255'}]}
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+115.0
+198.0
+216.0
+237.0
+old instance is set
+0 0.0
+115.0 0.14
+198.0 0.08
+216.0 0.18
+237.0 0.17
+255 1.0
+Traceback (most recent call last):
+  File "Driver.py", line 485, in saveVtkConfiguration
+    rc.getIntensityOpacity()
+AttributeError: __RenderConfiguration instance has no attribute 'getIntensityOpacity'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+181.0
+201.0
+218.0
+old instance is set
+0 0.0
+181.0 0.12
+201.0 0.06
+218.0 0.12
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+Traceback (most recent call last):
+  File "Driver.py", line 435, in openVTKObj
+    with open(fname) as json_file:  
+IOError: [Errno 2] No such file or directory: ''
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+200.0
+236.0
+242.0
+old instance is set
+0 0.0
+200.0 0.12
+236.0 0.32
+242.0 0.18
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+Traceback (most recent call last):
+  File "Driver.py", line 435, in openVTKObj
+    with open(fname) as json_file:  
+IOError: [Errno 2] No such file or directory: ''
+old instance is set
+0 0.0
+200.0 0.12
+236.0 0.32
+242.0 0.18
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+Traceback (most recent call last):
+  File "Driver.py", line 435, in openVTKObj
+    with open(fname) as json_file:  
+IOError: [Errno 2] No such file or directory: ''
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+194.0
+230.0
+old instance is set
+0 0.0
+194.0 0.06
+230.0 0.32
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+Traceback (most recent call last):
+  File "Driver.py", line 449, in openVTKObj
+    extent = unicode(extent,"Utf-8")
+TypeError: decoding Unicode is not supported
+228.0
+249.0
+242.0
+old instance is set
+0 0.0
+228.0 0.16
+242.0 0.12
+249.0 0.26
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+Traceback (most recent call last):
+  File "Driver.py", line 449, in openVTKObj
+    extent = unicode(extent,"Utf-8")
+TypeError: decoding Unicode is not supported
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+212.0
+229.0
+237.0
+old instance is set
+0 0.0
+212.0 0.12
+229.0 0.18
+237.0 0.2
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+Traceback (most recent call last):
+  File "Driver.py", line 449, in openVTKObj
+    extent = unicode(extent,"Utf-8")
+TypeError: decoding Unicode is not supported
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+229.0
+236.0
+241.0
+241.0
+241.0
+old instance is set
+0 0.0
+229.0 0.13
+236.0 0.17
+241.0 0.08
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+Traceback (most recent call last):
+  File "Driver.py", line 467, in openVTKObj
+    extent = extent.encode("ut f-8")
+LookupError: unknown encoding: ut f-8
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+222.0
+241.0
+241.0
+242.0
+old instance is set
+0 0.0
+222.0 0.3
+241.0 0.23
+242.0 0.03
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 474, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 24, in readImgStack
+    self.reader.SetDataExtent(0,ex[1],0,ex[3],0,loadedDataInfo.imageNo-1)
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+214.0
+246.0
+241.0
+old instance is set
+0 0.0
+214.0 0.1
+241.0 0.07
+246.0 0.18
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 474, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 24, in readImgStack
+    self.reader.SetDataExtent(0,ex[1],0,ex[3],0,loadedDataInfo.imageNo-1)
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+121.0
+201.0
+237.0
+old instance is set
+0 0.0
+121.0 0.09
+201.0 0.15
+237.0 0.17
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 475, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 24, in readImgStack
+    self.reader.SetDataExtent(0,ex[1],0,ex[3],0,loadedDataInfo.imageNo-1)
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+208.0
+247.0
+old instance is set
+0 0.0
+208.0 0.06
+247.0 0.15
+255 1.0
+{'LoadStack': [{'digits': '2', 'imageNo': '50', 'image_prefix': '', 'extent': '(0, 727, 0, 727, 0, 0)', 'offset': '0', 'path': '/home/pssarkar/Pranav/Graphite_recons_8bit/', 'ySpace': '1.0', 'xSpace': '1.0', 'zSpace': '0.5'}], 'intensityOpacity': [{'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}, {'opacity': '1.0', 'intensity': '255'}]}
+old instance is set
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 475, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 24, in readImgStack
+    self.reader.SetDataExtent(0,ex[1],0,ex[3],0,loadedDataInfo.imageNo-1)
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 475, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 24, in readImgStack
+    self.reader.SetDataExtent(0,ex[1],0,ex[3],0,loadedDataInfo.imageNo-1)
+TypeError: 'NoneType' object has no attribute '__getitem__'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 475, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 25, in readImgStack
+    self.reader.SetDataExtent(0,1,0,3,0,loadedDataInfo.imageNo-1)
+TypeError: unsupported operand type(s) for -: 'unicode' and 'int'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 475, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 26, in readImgStack
+    self.reader.SetDataSpacing(loadedDataInfo.xSpace, loadedDataInfo.ySpace, loadedDataInfo.zSpace)
+TypeError: argument 1: a float is required
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+7
+Traceback (most recent call last):
+  File "Driver.py", line 475, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 25, in readImgStack
+    self.reader.SetDataExtent(0,ex[1],0,ex[3],0,1)
+TypeError: 'NoneType' object has no attribute '__getitem__'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+0
+Traceback (most recent call last):
+  File "Driver.py", line 475, in openVTKObj
+    self.pRenderer.readImgStack(rc)
+  File "/home/pssarkar/Anshul/Pranav/SeparateModules/Renderer.py", line 25, in readImgStack
+    self.reader.SetDataExtent(0,ex[1],0,1,0,1)
+TypeError: 'NoneType' object has no attribute '__getitem__'
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+0
+Traceback (most recent call last):
+  File "Driver.py", line 472, in openVTKObj
+    rc.extent[1]=extent[1]
+TypeError: 'NoneType' object does not support item assignment
+pssarkar@pssarkar-CELSIUS-W530:~/Anshul/Pranav/SeparateModules$ vtkpython Driver.py
+new instance is assigned
+path/home/pssarkar/Pranav/Graphite_recons_8bit/
+(0, 727, 0, 727, 0, 0)
+0
+Traceback (most recent call last):
+  File "Driver.py", line 472, in openVTKObj
+    rc.ex[1]=extent[1]
+AttributeError: __RenderConfiguration instance has no attribute 'ex'

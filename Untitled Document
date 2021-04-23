@@ -1,0 +1,43 @@
+report
+
+
+#Look into this issue
+
+
+ Inspired by Test-Driven Development with Python by Harry Percival, I'm trying to implement functional testing of a PyQt GUI. I'm finding that, in order for tests to find the GUI components, I need the actual code to include lots of .setObjectName lines as a "hook". This makes the actual program code very redundant. For example:
+
+    modelsWidget = QWidget()
+    modelsWidget.setObjectName('modelswidget')
+    modelsLayout = QVBoxLayout()
+    modelsLayout.setObjectName('modelslayout')
+
+    twoSingletButton = QRadioButton('Two uncoupled spin-1/2 nuclei')
+    twoSingletButton.setObjectName('twosingletbutton')
+    abButton = QRadioButton('Two coupled spin-1/2 nuclei\n ("AB quartet)')
+    abButton.setObjectName('abbutton')
+
+and then the functional tests would look up components by name, e.g.:
+
+def test_view_switch(self):
+    """The user clicks on the radio button for the AB model, and sees that the
+    view has changed to that for the AB model."""
+    initialView = self.ui.stackedWidget.currentWidget()
+    abButton = self.getToolbar.findChild(QRadioButton, 'abbutton')
+    abButton.click()
+    finalView = self.ui.stackedWidget.currentWidget()
+    assert initialView is not finalView
+    assert finalView.objectName() == 'ABwidget'
+
+(OK, that's probably poor craftsmanship, with two asserts in a single test, but it demonstrates the nature of the test strategy.)
+
+I don't see a good way around this. It's a lot more direct to use a statement such as:
+
+self.Gui.findChild (QDoubleSpinBox, 'va')
+
+than:
+
+self.Gui.stackedWidget.currentWidget.layout.itemAtPosition(2, i).widget()
+
+in the tests. The former is assuming that the main code uses the same widget names, and the latter is assuming that the main code uses the exact same hierarchy to place a widget. Neither may truly be mandatory to provide the desired "look/feel" of the GUI.
+
+Am I going about functional testing a PyQt GUI the wrong way? Is there a more proper way for a test to find, or refer to, GUI components?
